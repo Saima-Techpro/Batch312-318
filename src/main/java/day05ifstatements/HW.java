@@ -7,6 +7,7 @@ public class HW {
         Task 1:
          If the user is female and older than 60, print "You can retire!"
          If the user is male and older than 65, print "You can retire!"
+
          */
 
 
