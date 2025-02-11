@@ -12,11 +12,16 @@ public class HW {
 
         // Task 2: Count occurrences of "Java"
 //        int count = str.substring(0, wordOccurrence).split("Java").length;
+//        int count = str.split("Java").length;
 //        System.out.println("Count of 'Java' occurrences = " + count); //4
         // OR
 
-        int count = str.split("Java", -1).length - 1;
+        int count = str.split("Java", -1).length - 1; // limit = -1 ensures that in case if there's an empty subString in the end, count that too
         System.out.println("Count of 'Java' occurrences = " + count); // 4
+
+
+
+
 
 
         // Task 3:   Type code to check if the given letter is unique in the String
