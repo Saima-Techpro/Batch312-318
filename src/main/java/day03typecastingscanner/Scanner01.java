@@ -40,5 +40,6 @@ public class Scanner01 {
 
         System.out.println("Age: "+age);
 
+
     }
 }
