@@ -33,25 +33,6 @@ public class DoWhileLoop02 {
 
         } while (number < 100);
 
-        System.out.println("==============");
-        // chatGPT solution:
-
-        do {
-            System.out.print("Enter a non-negative integer: ");
-            number = scan.nextInt();
-
-            if (number < 0) {
-                System.out.println("Invalid input! Please enter a non-negative integer.");
-            } else if (number < 100) {
-                System.out.println("You lost!");
-            } else {
-                System.out.println("You won!");
-            }
-        } while (number < 100); // Loop continues until the user wins
-
-
-
-
 
 
     }
