@@ -64,6 +64,15 @@ public class StringManipulation03 {
               Like in above example, 'a' occurred twice, so split() method will cut the String
               wherever it sees 'a'. So in this case we will be left with 3 String Arrays and
               we can reach out to whichever we want by using index []
+
+        Behavior of split():
+        The split() method works as follows:
+            - If the delimiter is found, the string is split into substrings at each occurrence of the delimiter.
+            - If the delimiter is not found, the entire string is returned as a single substring in the array.
+            - If the delimiter is found at the end of the string, the trailing empty strings are not included in the result.
+
+            To include them, use split() with two parameters:
+            split(delimiter, limit)
          */
 
 

@@ -22,13 +22,9 @@ public class Loop01 {
         String password;
 
         int numbOfTries= 0;
+        int maxTries= 5;
 
         do {
-
-            if (numbOfTries == 5 ){
-                System.out.println("You provided invalid credentials 5th time! So your account is blocked!");
-                break;
-            }
 
             System.out.println("Enter your username");
             userName = scan.next();
@@ -44,11 +40,15 @@ public class Loop01 {
 
                 break;
             }else {
-                System.out.println("Username or password don't match. Please provide valid credentials.");
-                System.out.println("Warning: You are going to try "+numbOfTries +  " times");
+                if (numbOfTries == maxTries){
+                    System.out.println("You provided invalid credentials 5 times! So your account is blocked!");
+                    break;
+                }else {
+                    System.out.println("Username or password don't match. Please provide valid credentials.");
+                    System.out.println("Warning: Invalid credentials. Attempts remaining:  "+ (maxTries - numbOfTries));
+                }
+
             }
-
-
 
         }while (true);
 
