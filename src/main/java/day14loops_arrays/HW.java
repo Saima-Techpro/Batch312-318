@@ -86,10 +86,12 @@ public class HW {
 
          /*              Important Note:
 
-        - Arrays are objects, stored in HEAP memory.
+        - Arrays are objects, stored in HEAP memory, their reference is stored in stack memory.
         - Objects have UNIQUE references.
-        - equals() method checks the value AS WELL AS reference.
-        - In this example, c.equals(d) checks the values, values are the same at the sames indices.
+         - equals() method checks the reference equality in Arrays (unlike Strings, in Strings, it checks value)
+         - equality operator == checks the reference only in Arrays (like in Strings)
+
+         - In this example, c.equals(d) checks the values, values are the same at the sames indices.
           However, reference of each array is unique hence not equal. That's why check1 returns false as well.
 
         - So if you want to check values ONLY inside the two arrays, use Arrays.equal() method.
