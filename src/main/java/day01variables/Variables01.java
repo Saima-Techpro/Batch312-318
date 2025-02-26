@@ -121,6 +121,7 @@ public class Variables01 { // This is the start of  class body
 
          */
 
+
     }
 
 } // Class body ends here

@@ -1,8 +1,8 @@
-package day19methodcreation_overloading;
+package day19methodcreation;
 
-import static day19methodcreation_overloading.MethodCreation01.add;
-import static day19methodcreation_overloading.MethodCreation02.printText;
-import static day19methodcreation_overloading.MethodCreation02.subtract;
+import static day19methodcreation.MethodCreation01.add;
+import static day19methodcreation.MethodCreation02.printText;
+import static day19methodcreation.MethodCreation02.subtract;
 //import static day19methodcreation_overloading.MethodCreation02.addAndMultiply;
 
 public class Runner {

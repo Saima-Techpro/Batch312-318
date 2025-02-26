@@ -1,7 +1,4 @@
-package day19methodcreation_overloading;
-
-import java.util.ArrayList;
-import java.util.List;
+package day19methodcreation;
 
 public class MethodCreation02 {
     public static void main(String[] args) {
