@@ -65,6 +65,8 @@ public class StringBuilder01 {
         sb.append("!");
         System.out.println("Original sb = " + sb); // SQL!
 
+        // sb.concat() => StringBuilder doesn't have concat()
+
 
           /*
         REAL LIFE IMPLEMENTATION:
