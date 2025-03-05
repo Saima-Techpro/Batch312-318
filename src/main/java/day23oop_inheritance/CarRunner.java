@@ -44,6 +44,16 @@ public class CarRunner {
             4)"super()" is for calling "constructors" from parent class, "super" is for calling variables and methods
               from the parent class
 
+            5)"this" is used to call data from the class itself.
+               When you use "this", it means you are telling Java "do not go to the parent, stay in this class"
+
+
+           Why make a super call?
+
+        1) If you use the super keyword, you can call the method of the parent class and also modify the behaviour
+            of this method according to the needs of the child class.
+        2) The extends keyword only allows inheritance, but does not modify the methods of the parent class
+
 
          */
 

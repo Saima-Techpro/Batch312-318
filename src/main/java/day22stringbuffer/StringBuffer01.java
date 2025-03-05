@@ -1,4 +1,4 @@
-package day23stringbuffer;
+package day22stringbuffer;
 
 public class StringBuffer01 {
     /*

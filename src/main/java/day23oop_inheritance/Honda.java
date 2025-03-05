@@ -6,7 +6,8 @@ public class Honda extends Car{
 
     // non-parameterised constructor
     public Honda(){
-        super();
+        super();  //default super constructor
+        //super("eco-friendly");
         System.out.println("this.torque = " + this.torque);
         System.out.println("Civic");
     }
