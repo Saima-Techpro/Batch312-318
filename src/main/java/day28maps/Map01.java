@@ -30,7 +30,7 @@ public class Map01 {
         myMap.put("Tom Cruise", 79);
         myMap.put("Keira Knightly", 39);
         myMap.put("Keanu Reeves", 60);
-        myMap.put("Denzil Washigton", 70);
+        myMap.put("Denzil Washington", 70);
         myMap.put("Judi Dench", 74);
         myMap.put("Al Pacino", 71);
         myMap.put("Emma Watson", 34);
