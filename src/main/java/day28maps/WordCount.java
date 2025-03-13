@@ -51,6 +51,23 @@ public class WordCount {
         }
         System.out.println("myMap = " + myMap);
 
+        System.out.println("============= HW ============");
+
+        // HW
+        HashMap<Character, Integer> letterMap = new HashMap<>();
+
+        char[] letters = str.replace(" ", "").toCharArray();
+
+        for (char c : letters) {
+            Integer count = letterMap.get(c);
+            if (count == null) {
+                letterMap.put(c, 1);
+            } else {
+                letterMap.put(c, count + 1);
+            }
+        }
+        System.out.println("Letter Count: " + letterMap);
+
 
     }
 }
