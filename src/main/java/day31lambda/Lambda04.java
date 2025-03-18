@@ -16,6 +16,8 @@ public class Lambda04 {
         findMax1(numbers);
         findMax2(numbers);
         findMax3(numbers);
+        findMax4(numbers);
+        findMax5(numbers);
 
     }
 
@@ -28,6 +30,15 @@ public class Lambda04 {
         System.out.println("max = " + max);
 
     }
+
+    // Integer.MIN_VALUE provides minimum value that an integer can have (-2147483648)
+    // This value is used as an identity element and assigned in t variable at first
+    // The first element from the stream goes to u variable
+    // Condition used in ternary returns the value from the relevant variable
+    // That value is assigned back to t variable everytime
+    // until we get the last value in t which should be the maximum
+
+
 
     // 2nd way: by using an element from the list itself as our identity element
     // [16, 5, 8, 11, 34, 8, 2]
@@ -70,12 +81,6 @@ public class Lambda04 {
 
      */
 
-
-
-
-
-
-
     // 4th way: using method reference => Integer::max
     public static void findMax4(List<Integer> list){
 
@@ -108,16 +113,5 @@ public class Lambda04 {
         // then Comparator.reverseOrder() reverses the order => from big to small
 
     }
-
-
-
-
-
-
-
-
-
-
-
 
 }
