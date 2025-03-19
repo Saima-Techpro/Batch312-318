@@ -42,8 +42,16 @@ public class Lambda03 {
         System.out.println("list = " + list);
     }
 
-    // NOTE: removeIf() is removing elements directly from the original list
-    // Hence, original list has fewer elements after every method call
+    /*
+    NOTE: removeIf() is removing elements directly from the original list
+             Hence, original list has fewer elements after every method call.
+
+        Why does removeIf() modify myList, but stream() does not?
+
+        removeIf() directly modifies the original list in place.
+        Streams (stream(), filter(), map(), etc.) create a new sequence of elements but do not modify the original list.
+
+     */
 
 
     // Create a method to delete elements whose length is between 4 and 8 or ends with 'f'
