@@ -17,7 +17,21 @@ public class FullTimeEmployee extends Employee{
         this.bonus = bonus;
         this.benefits = benefits;
     }
+    /*
+    In Java, the FullTimeEmployee class inherits from the Employee class.
+    The Employee class has a protected double salary attribute. Since FullTimeEmployee is a subclass of Employee,
+    it inherits this salary field from the parent class.
 
+     This means that even though FullTimeEmployee does not declare a salary variable explicitly, it has access to
+     the salary field through inheritance.
+     this.salary refers to the inherited salary:
+
+     The 'this' keyword in Java refers to the current instance of the class (in this case, an instance of FullTimeEmployee).
+     Since FullTimeEmployee inherits the salary field from Employee, this.salary is a reference to the salary field
+     in the Employee class, not in FullTimeEmployee itself.
+     The assignment this.salary = salary; ensures that the salary field inherited from Employee gets initialized
+     with the value passed into the FullTimeEmployee constructor.
+     */
 
     // override the abstract methods from Employee Superclass
     @Override
